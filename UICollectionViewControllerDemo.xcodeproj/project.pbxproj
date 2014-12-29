@@ -14,6 +14,14 @@
 		441D13771A4D955300BB5771 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441D13761A4D955300BB5771 /* Images.xcassets */; };
 		441D137A1A4D955300BB5771 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 441D13781A4D955300BB5771 /* LaunchScreen.xib */; };
 		441D13861A4D955300BB5771 /* UICollectionViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441D13851A4D955300BB5771 /* UICollectionViewControllerDemoTests.m */; };
+		441D13921A4FEF6D00BB5771 /* SimpleFlowLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 441D13911A4FEF6D00BB5771 /* SimpleFlowLayoutCell.m */; };
+		441D13951A5012CB00BB5771 /* SimpleFlowLayoutSupplementaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 441D13941A5012CB00BB5771 /* SimpleFlowLayoutSupplementaryView.m */; };
+		441D13991A5028CD00BB5771 /* LineCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441D13981A5028CD00BB5771 /* LineCollectionViewController.m */; };
+		441D139C1A50293600BB5771 /* LineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 441D139B1A50293600BB5771 /* LineLayout.m */; };
+		441D139F1A50299800BB5771 /* LineLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 441D139E1A50299800BB5771 /* LineLayoutCell.m */; };
+		441D13A31A50418E00BB5771 /* CircleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441D13A21A50418E00BB5771 /* CircleCollectionViewController.m */; };
+		441D13A61A5041A500BB5771 /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 441D13A51A5041A500BB5771 /* CircleLayout.m */; };
+		441D13A91A5044E800BB5771 /* CircleLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 441D13A81A5044E800BB5771 /* CircleLayoutCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,22 @@
 		441D137F1A4D955300BB5771 /* UICollectionViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		441D13841A4D955300BB5771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		441D13851A4D955300BB5771 /* UICollectionViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewControllerDemoTests.m; sourceTree = "<group>"; };
+		441D13901A4FEF6D00BB5771 /* SimpleFlowLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFlowLayoutCell.h; sourceTree = "<group>"; };
+		441D13911A4FEF6D00BB5771 /* SimpleFlowLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFlowLayoutCell.m; sourceTree = "<group>"; };
+		441D13931A5012CB00BB5771 /* SimpleFlowLayoutSupplementaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFlowLayoutSupplementaryView.h; sourceTree = "<group>"; };
+		441D13941A5012CB00BB5771 /* SimpleFlowLayoutSupplementaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFlowLayoutSupplementaryView.m; sourceTree = "<group>"; };
+		441D13971A5028CD00BB5771 /* LineCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineCollectionViewController.h; sourceTree = "<group>"; };
+		441D13981A5028CD00BB5771 /* LineCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineCollectionViewController.m; sourceTree = "<group>"; };
+		441D139A1A50293600BB5771 /* LineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineLayout.h; sourceTree = "<group>"; };
+		441D139B1A50293600BB5771 /* LineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineLayout.m; sourceTree = "<group>"; };
+		441D139D1A50299800BB5771 /* LineLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineLayoutCell.h; sourceTree = "<group>"; };
+		441D139E1A50299800BB5771 /* LineLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineLayoutCell.m; sourceTree = "<group>"; };
+		441D13A11A50418E00BB5771 /* CircleCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCollectionViewController.h; sourceTree = "<group>"; };
+		441D13A21A50418E00BB5771 /* CircleCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCollectionViewController.m; sourceTree = "<group>"; };
+		441D13A41A5041A500BB5771 /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		441D13A51A5041A500BB5771 /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
+		441D13A71A5044E800BB5771 /* CircleLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayoutCell.h; sourceTree = "<group>"; };
+		441D13A81A5044E800BB5771 /* CircleLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayoutCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +105,11 @@
 		441D13681A4D955300BB5771 /* UICollectionViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				441D13A01A50416300BB5771 /* CircleLayout */,
+				441D13961A50287D00BB5771 /* LineLayout */,
+				441D138F1A4FEE0300BB5771 /* SimpleFlowLayout */,
 				441D136D1A4D955300BB5771 /* AppDelegate.h */,
 				441D136E1A4D955300BB5771 /* AppDelegate.m */,
-				441D13701A4D955300BB5771 /* ViewController.h */,
-				441D13711A4D955300BB5771 /* ViewController.m */,
 				441D13731A4D955300BB5771 /* Main.storyboard */,
 				441D13761A4D955300BB5771 /* Images.xcassets */,
 				441D13781A4D955300BB5771 /* LaunchScreen.xib */,
@@ -117,6 +142,45 @@
 				441D13841A4D955300BB5771 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		441D138F1A4FEE0300BB5771 /* SimpleFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				441D13701A4D955300BB5771 /* ViewController.h */,
+				441D13711A4D955300BB5771 /* ViewController.m */,
+				441D13901A4FEF6D00BB5771 /* SimpleFlowLayoutCell.h */,
+				441D13911A4FEF6D00BB5771 /* SimpleFlowLayoutCell.m */,
+				441D13931A5012CB00BB5771 /* SimpleFlowLayoutSupplementaryView.h */,
+				441D13941A5012CB00BB5771 /* SimpleFlowLayoutSupplementaryView.m */,
+			);
+			name = SimpleFlowLayout;
+			sourceTree = "<group>";
+		};
+		441D13961A50287D00BB5771 /* LineLayout */ = {
+			isa = PBXGroup;
+			children = (
+				441D13971A5028CD00BB5771 /* LineCollectionViewController.h */,
+				441D13981A5028CD00BB5771 /* LineCollectionViewController.m */,
+				441D139A1A50293600BB5771 /* LineLayout.h */,
+				441D139B1A50293600BB5771 /* LineLayout.m */,
+				441D139D1A50299800BB5771 /* LineLayoutCell.h */,
+				441D139E1A50299800BB5771 /* LineLayoutCell.m */,
+			);
+			name = LineLayout;
+			sourceTree = "<group>";
+		};
+		441D13A01A50416300BB5771 /* CircleLayout */ = {
+			isa = PBXGroup;
+			children = (
+				441D13A11A50418E00BB5771 /* CircleCollectionViewController.h */,
+				441D13A21A50418E00BB5771 /* CircleCollectionViewController.m */,
+				441D13A41A5041A500BB5771 /* CircleLayout.h */,
+				441D13A51A5041A500BB5771 /* CircleLayout.m */,
+				441D13A71A5044E800BB5771 /* CircleLayoutCell.h */,
+				441D13A81A5044E800BB5771 /* CircleLayoutCell.m */,
+			);
+			name = CircleLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441D139C1A50293600BB5771 /* LineLayout.m in Sources */,
+				441D13A91A5044E800BB5771 /* CircleLayoutCell.m in Sources */,
+				441D13A31A50418E00BB5771 /* CircleCollectionViewController.m in Sources */,
+				441D139F1A50299800BB5771 /* LineLayoutCell.m in Sources */,
+				441D13A61A5041A500BB5771 /* CircleLayout.m in Sources */,
 				441D13721A4D955300BB5771 /* ViewController.m in Sources */,
+				441D13921A4FEF6D00BB5771 /* SimpleFlowLayoutCell.m in Sources */,
 				441D136F1A4D955300BB5771 /* AppDelegate.m in Sources */,
 				441D136C1A4D955300BB5771 /* main.m in Sources */,
+				441D13991A5028CD00BB5771 /* LineCollectionViewController.m in Sources */,
+				441D13951A5012CB00BB5771 /* SimpleFlowLayoutSupplementaryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +484,7 @@
 				441D138B1A4D955300BB5771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		441D138C1A4D955300BB5771 /* Build configuration list for PBXNativeTarget "UICollectionViewControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +493,7 @@
 				441D138E1A4D955300BB5771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
